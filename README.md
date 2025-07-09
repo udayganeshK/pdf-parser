@@ -42,7 +42,7 @@ FATHER E V Sastry OCCUPATION Engineer CONTACT 9959242663
 ```bash
 # Clone and setup in one go
 git clone git@github.com:udayganeshK/pdf-parser.git
-cd pdf-parser/field-parser
+cd pdf-parser
 ./setup.sh
 ./run.sh
 ```
@@ -51,7 +51,7 @@ cd pdf-parser/field-parser
 ```cmd
 # Clone and setup in one go
 git clone git@github.com:udayganeshK/pdf-parser.git
-cd pdf-parser/field-parser
+cd pdf-parser
 setup.bat
 run.bat
 ```
@@ -65,7 +65,7 @@ run.bat
 #### 1. Clone the Repository
 ```bash
 git clone git@github.com:udayganeshK/pdf-parser.git
-cd pdf-parser/field-parser
+cd pdf-parser
 ```
 
 #### 2. Create Virtual Environment (Recommended)
@@ -168,7 +168,7 @@ Use the built-in demo feature:
 
 ### Project Structure
 ```
-field-parser/
+pdf-parser/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── README.md          # This file
